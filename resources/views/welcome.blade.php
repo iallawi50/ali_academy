@@ -13,9 +13,6 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg flex flex-col md:flex-row justify-between items-center px-6">
                 <div class="text-3xl">
                     <h1 class="mb-4">{{__("All the skills you need in one place")}}</h1>
-
-                    <a href="" class="btn-primary">{{ __("Browse Courses") }}</a>
-                    <a href="" class="btn-primary">{{ __("Read Articles") }}</a>
                 </div>
                 <img src="{{ asset("imgs/landing.jpg") }}" alt="landing" class="w-96 {{ App::isLocale("en") ? 'scale-x-[-1]' : '' }}">
             </div>
