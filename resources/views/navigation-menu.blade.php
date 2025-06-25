@@ -24,7 +24,7 @@
                     @endif
                     @endauth
 
-                    <x-nav-link href="{{ route('courses.enrolled') }}" :active="request()->routeIs('posts.index')">
+                    <x-nav-link href="{{ route('posts.index') }}" :active="request()->routeIs('posts.index')">
                         {{ __('Articles') }}
                     </x-nav-link>
 
